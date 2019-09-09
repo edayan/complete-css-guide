@@ -212,3 +212,18 @@ body {
   padding: 0;
   text-align: center;
 }
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
+}
