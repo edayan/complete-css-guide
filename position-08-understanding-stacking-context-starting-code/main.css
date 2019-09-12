@@ -21,6 +21,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   position: fixed;
+  z-index: 10;
 }
 
 .headline div {
@@ -57,14 +58,18 @@ body {
 .image-1 {
   top: 200px;
   left: 230px;
+  position:fixed;
 }
 
 .image-2 {
   top: 230px;
   left: 260px;
+  position:fixed;
+  z-index: 1000;
 }
 
 .image-3 {
   left: 300px;
   top: 260px;
+  position:fixed;
 }
