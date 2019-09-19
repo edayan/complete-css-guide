@@ -15,7 +15,9 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
   });
 }
 
-modalNoActionButton.addEventListener("click", closeModal);
+if (modalNoActionButton) {
+  modalNoActionButton.addEventListener("click", closeModal);
+}
 
 backdrop.addEventListener("click", function() {
   // mobileNav.style.display = "none";
@@ -26,7 +28,10 @@ backdrop.addEventListener("click", function() {
 function closeModal() {
   // modal.style.display = "none";
   // backdrop.style.display = "none";
-  modal.classList.remove("open");
+  if (modal) {
+    modal.classList.remove("open");
+  }
+
   backdrop.classList.remove("open");
 }
 
