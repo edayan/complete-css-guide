@@ -66,13 +66,18 @@ main {
   background: white;
   font-family: "AnonymousPro", sans-serif;
   font-weight: 700;
-  /* line-height: 1; */
+  line-height: 1;
   /* text-decoration: underline;
   text-decoration: overline;
   text-decoration: underline wavy red;
   text-decoration: line-through dotted red; */
   /* text-shadow: 5px 5px;
   text-shadow: 2px 2px 7px grey; */
+  /* font: italic small-caps 700 1.2rem/2 "AnonymousPro", sans-serif; */
+  /* fonts-style font-variant font-weight font-size/line-height font-family (order is important)*/
+
+  /* font: menu;
+  font: status-bar; */
 }
 
 .clearfix {
