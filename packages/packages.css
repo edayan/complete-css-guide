@@ -67,6 +67,12 @@ main {
   font-family: "AnonymousPro", sans-serif;
   font-weight: 700;
   /* line-height: 1; */
+  /* text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: underline wavy red;
+  text-decoration: line-through dotted red; */
+  /* text-shadow: 5px 5px;
+  text-shadow: 2px 2px 7px grey; */
 }
 
 .clearfix {
