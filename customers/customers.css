@@ -57,6 +57,12 @@ main {
   /* font-size: 40px;
   font-variant: all-small-caps;
   font-stretch: ultra-condensed; */
+  /* letter-spacing: 5px;
+  white-space: normal;
+  white-space: nowrap;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line; */
 }
 
 @media (min-width: 40rem) {
